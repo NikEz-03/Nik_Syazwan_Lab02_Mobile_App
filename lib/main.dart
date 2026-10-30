@@ -297,8 +297,8 @@ class _StudentProfileScreenState extends State<StudentProfileScreen> {
   }
 }
 
-/// Decomposed Sub-Widget: StudentDetailsSection
-/// Reusable profile widget based on Lab 01
+/// StudentDetailsSection
+/// Profile widget based on Lab 01
 class StudentDetailsSection extends StatelessWidget {
   final String name;
   final String studentId;
@@ -415,8 +415,8 @@ class TitleSection extends StatelessWidget {
   }
 }
 
-/// Decomposed Sub-Widget: LocationDetailsSection
-/// Wraps TitleSection in a Card with a header
+/// LocationDetailsSection
+/// TitleSection
 class LocationDetailsSection extends StatelessWidget {
   final String title;
   final String name;
@@ -462,7 +462,7 @@ class LocationDetailsSection extends StatelessWidget {
   }
 }
 
-/// Decomposed Sub-Widget: ImageSection
+/// ImageSection
 class ImageSection extends StatelessWidget {
   final String imagePath;
 
@@ -494,7 +494,7 @@ class ImageSection extends StatelessWidget {
   }
 }
 
-/// Optional sub-widgets referenced in tutorial base code
+/// Optional sub-widgets
 class ActionButtonsSection extends StatelessWidget {
   const ActionButtonsSection({super.key});
 
